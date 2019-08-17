@@ -1,11 +1,12 @@
 import React from 'react'
-import Header from './layout/Header'
+import Load from '../components/Load';
+
 
 class Dashboard extends React.Component{
     render(){
         return(
             <div>
-                <Header/>
+                <Load/>
             </div>
         )
     }
