@@ -1,0 +1,33 @@
+
+.page-signin{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    .wrap{
+        width: 80%;
+        margin: 5rem 0;
+        text-align: center;
+
+        .card{
+            width: 100%;
+            display: flex;
+            padding-top: 2rem;
+            border: 1px solid rgba(0,0,0,.125);
+            border-radius: 2.25rem;
+            
+            
+            .col{
+                width: 100%;
+                img{
+                    width: 100%;
+                    margin-bottom: 1rem;
+                }
+                h1{
+                    font-size: 2rem !important ; 
+                }
+            }
+
+        }
+    }
+}
