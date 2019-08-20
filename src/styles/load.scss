@@ -7,12 +7,15 @@
         align-items: center;
         min-height: 100vh;
         border: 1px solid transparent;
-        background-color: #FCF3CF;
 
         img{
-             width: 50%;
-             background: contain;
-             border-radius: .25rem;
+                width: 15rem;
+                background: contain;
+        }
+        
+        img.load{
+                width: 2rem;
+                margin: 1rem 0;
         }
 
 }

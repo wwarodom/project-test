@@ -1,5 +1,4 @@
 import React from 'react'
-import '../styles/signin.scss'
 import food from '../asset/img/foodicon.gif'
 
 class Signin extends React.Component {
