@@ -1,0 +1,55 @@
+.warp-profile{
+    background-color: #f5e9ff;
+
+    .profile{
+    
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        // border-radius: 2rem;
+        background-color: #f5e9ff;
+        background-image: linear-gradient(to right top,#ffe8fc,#feeafd,#f6e9ff, #f5e9ff,#f1e6ff,  );
+
+        .warp-text{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 5rem 5rem;
+
+            h5{
+                font-size: 8rem;
+
+                @media (max-width: 1199.98px) { 
+                    font-size: 4rem;
+                 }
+            }
+
+            h6{
+                font-size: 3rem;
+            }
+        
+        }
+
+        img{
+            width: 35rem;
+            height: 30rem;
+
+            @media (max-width: 769px) {
+                width: 25rem;
+                height: 20rem;
+            }
+            
+            @media (max-width: 575.98px) {
+                width: 15rem;
+                height: 10rem;
+            }
+        }
+    }
+ 
+}
+
+.warp-Dashboard{
+    width: 100%;
+    display: flex;
+}
+   

@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route } from "react-router-dom";
-import Signin from './pages/Signin'
 import Dashboard from './pages/Dashboard'
+import MainLayout from './components/layout/MainLayout'
 
 function App() {
   return (
@@ -10,14 +10,9 @@ function App() {
 
         <Route
           exact
-          path="/signin"
-          component={Signin}
-        />
-
-        <Route
-          exact
-          path="/dashboard" 
+          path="/" 
           component={Dashboard}
+          layout={MainLayout}
         />
 
       </BrowserRouter>

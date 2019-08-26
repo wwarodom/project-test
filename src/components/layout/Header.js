@@ -2,12 +2,17 @@ import React from 'react'
 import '../../styles/header.scss'
 import logo from '../../asset/img/logo.png'
 
-class Header extends React.Component{
+class Header extends React.Component {
 
-    render(){
-        return(
+    render() {
+        return (
             <div className="wrap-header">
-            <img src={logo} alt="logo"/>
+                <nav className="navbar">
+                    <a className="navbar-brand" href="/">
+                    <img src={logo} alt="logo"/>
+                        Name
+                    </a>
+                </nav>
             </div>
         )
     }
