@@ -1,7 +1,10 @@
 import React from 'react'
 import MainLayout from '../components/layout/MainLayout';
 import QR from '../asset/img/QR.png'
-
+import pic1 from '../asset/img/fried.png'
+import pic2 from '../asset/img/foodstuff.svg'
+import pic3 from '../asset/img/Car.svg'
+import pic4 from '../asset/img/restaurant.svg'
 
 class Dashboard extends React.Component {
     render() {
@@ -11,19 +14,18 @@ class Dashboard extends React.Component {
                 <MainLayout />
                 <div className="warp-profile">
                     <div className="profile">
-                        <div className="warp-text" >
-                            <h1>หัวข้อใหญ่</h1>
-                            <h6>คำเปรย</h6>
-                        </div>
-                        <div className="warp-img">
-                          <img src={QR} alt="qr" />  
-                        </div>
-                        
+
+                        <img src={QR} alt="qr" />
                     </div>
                 </div>
 
                 <div className="warp-Dashboard">
-
+                    <div className="card">
+                        <img src={pic1} alt="pic1" />
+                        <img src={pic2} alt="pic2" />
+                        <img src={pic3} alt="pic3" />
+                        <img src={pic4} alt="pic4" />
+                    </div>
                 </div>
 
 
