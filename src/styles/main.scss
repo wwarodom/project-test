@@ -1,12 +1,13 @@
 .warp-profile{
-    background-color: #f5e9ff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 
     .profile{
-    
-        width: 100%;
+        width: 95%;
         display: flex;
         justify-content: flex-end;
-        // border-radius: 2rem;
+        border-radius: 2rem;
         background-color: #f5e9ff;
         background-image: linear-gradient(to right top,#ffe8fc,#feeafd,#f6e9ff, #f5e9ff,#f1e6ff,  );
 
@@ -14,38 +15,31 @@
             width: 100%;
             display: flex;
             flex-direction: column;
-            padding: 5rem 5rem;
-
-            h5{
-                font-size: 8rem;
-
-                @media (max-width: 1199.98px) { 
-                    font-size: 4rem;
-                 }
-            }
-
-            h6{
-                font-size: 3rem;
-            }
-        
+            padding: 4rem 4rem;
         }
 
-        img{
-            width: 35rem;
-            height: 30rem;
+        .warp-img{
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            margin: 0 1rem;
 
-            @media (max-width: 769px) {
-                width: 25rem;
-                height: 20rem;
-            }
+                img{
+                width: 35rem;
+                height: 30rem;
+
+                @media (max-width: 769px !important) {
+                width: 30rem;
+                height: 25rem;
+                }
             
-            @media (max-width: 575.98px) {
-                width: 15rem;
-                height: 10rem;
+                @media (max-width: 575.98px !important) {
+                width: 20rem;
+                height: 15rem;
+                }
             }
         }
     }
- 
 }
 
 .warp-Dashboard{

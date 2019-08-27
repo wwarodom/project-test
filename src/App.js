@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route } from "react-router-dom";
 import Dashboard from './pages/Dashboard'
 import MainLayout from './components/layout/MainLayout'
+import './styles/base.scss'
 
 function App() {
   return (
