@@ -21,6 +21,7 @@
             width: 50rem;
             @media (max-width: 575.98px) { 
                 width: 10rem !important;
+                height: 10rem !important;
              }
 
             @media (max-width: 767.98px) { 
@@ -57,7 +58,8 @@
             margin: 0 5rem;
 
             @media (max-width: 450px ) { 
-                width: 1.5rem !important;
+                width: 2rem !important;
+                height: 2rem !important;
                 margin: 0 2rem !important ;
              }
 
